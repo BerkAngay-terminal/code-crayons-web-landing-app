@@ -11,10 +11,16 @@
   "dependencies": {
     "@headlessui/react": "^1.7.7",
     "@heroicons/react": "^2.0.13",
+    "@react-three/drei": "^9.54.2",
+    "@react-three/fiber": "^8.10.1",
+    "@types/three": "^0.148.1",
     "next": "13.1.5",
+    "random": "^4.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "recoil": "^0.7.6"
+    "recoil": "^0.7.6",
+    "three": "^0.148.0",
+    "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
