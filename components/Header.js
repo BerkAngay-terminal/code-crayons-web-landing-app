@@ -108,7 +108,7 @@ function Header() {
             </button>
 
             {/* Logo */}
-            <img className='h-10 lg:h-12 transform transition hover:scale-110 cursor-pointer' src="https://link-cdn.fra1.cdn.digitaloceanspaces.com/Link/codecrayons%20(1).png" alt="" />
+            <img onClick={() => router.push('/')} className='h-10 lg:h-12 transform transition hover:scale-110 cursor-pointer' src="https://link-cdn.fra1.cdn.digitaloceanspaces.com/Link/codecrayons%20(1).png" alt="" />
 
 
             <div className='hidden sm:flex items-center space-x-2 w-52 no-wrap mr-32'>

@@ -9,6 +9,11 @@
   dependencies:
     "regenerator-runtime" "^0.13.11"
 
+"@badrap/bar-of-progress@^0.2.2":
+  "integrity" "sha512-Ig7MdFQM3OA7Ror5UB1ZutXNZFwxh6YExZvcd6EZloOgcXUR8PKNLH2wUVoeh92NMPnPWr6J/l9Mp+f3z7O7MQ=="
+  "resolved" "https://registry.npmjs.org/@badrap/bar-of-progress/-/bar-of-progress-0.2.2.tgz"
+  "version" "0.2.2"
+
 "@chevrotain/cst-dts-gen@10.4.2":
   "integrity" "sha512-0+4bNjlndNWMoVLH/+y4uHnf6GrTipsC+YTppJxelVJo+xeRVQ0s2PpkdDCVTsu7efyj+8r1gFiwVXsp6JZ0iQ=="
   "resolved" "https://registry.npmjs.org/@chevrotain/cst-dts-gen/-/cst-dts-gen-10.4.2.tgz"
