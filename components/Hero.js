@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 
 function Hero() {
     return (
-        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate3d(-50%,-50%,0)' }}>iv
+        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate3d(-50%,-50%,0)' }}>
             <div className='w-96 h-[30vh]'>
                 <h1 className='text-4xl text-white md:text-7xl font-bold '>We build</h1>
                 <h1 className='md:text-5xl text-pink-400 text-8xl font-bold'>

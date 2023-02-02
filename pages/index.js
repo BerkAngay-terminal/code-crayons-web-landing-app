@@ -12,7 +12,9 @@ function index() {
       </Head>
       <div className='bg-black w-full h-screen '>
         <div className='absolute inset-0 z-50'>
-          <Header />
+          <div className='z-50'>
+            <Header />
+          </div>
           <Hero />
         </div>
         <div className='-z-10 w-screen h-screen'>
