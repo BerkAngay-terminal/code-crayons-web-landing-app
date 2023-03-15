@@ -2,6 +2,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import { useRouter } from 'next/router'
 import { Fragment, useState } from 'react'
 import StartButton from './StartButton'
+import MailTo from './MailTo'
 import {
     Bars3Icon,
     XMarkIcon,
@@ -111,15 +112,41 @@ function Header() {
             <img onClick={() => router.push('/')} className='h-10 lg:h-12 transform transition hover:scale-110 cursor-pointer' src="https://link-cdn.fra1.cdn.digitaloceanspaces.com/Link/codecrayons%20(1).png" alt="" />
 
 
-            <div className='hidden sm:flex items-center space-x-2 w-52 no-wrap mr-32'>
+            {/* <div className='hidden sm:flex items-center space-x-2 w-52 no-wrap mr-32'>
                 <button onClick={() => router.push('/about')} className='px-2 py-1.5 text-sm font-bold text-gray-400 bg-zinc-900 rounded-md transform transition hover:scale-105 hover:bg-red-300 hover:text-black'>Overview</button>
                 <button onClick={() => router.push('/about')} className='px-2 py-1.5 text-sm font-bold text-gray-400 bg-zinc-900 rounded-md transform transition hover:scale-105 hover:bg-yellow-300 hover:text-black'>Work</button>
                 <button onClick={() => router.push('/about')} className='px-2 py-1.5 text-sm font-bold text-gray-400 bg-zinc-900 rounded-md transform transition hover:scale-105 hover:bg-green-300 hover:text-black'>Services</button>
                 <button onClick={() => router.push('/about')} className='px-2 py-1.5 text-sm font-bold text-gray-400 bg-zinc-900 rounded-md transform transition hover:scale-105 hover:bg-blue-300 hover:text-black'>About</button>
                 <button onClick={() => router.push('/about')} className='px-2 py-1.5 text-sm font-bold text-gray-400 bg-zinc-900 rounded-md transform transition hover:scale-105 hover:bg-purple-300 hover:text-black'>Contact</button>
-            </div>
+            </div> */}
 
-            <StartButton />
+
+            <MailTo email="hello@codecrayons.dev" subject="Projenizin Adı" body="Merhaba,
+Bizimle çalışmak istediğiniz için teşekkür ederiz. Yazılım destek ajansı olarak, projenizi daha iyi anlamak ve size doğru bir fiyatlandırma yapabilmek için bazı sorularımız var.
+1.	Projenizin amacı nedir? (Örneğin, yeni bir web sitesi kurulumu, mevcut bir web sitesi yenileme, mobil uygulama geliştirme vb.)
+2.	Projenin ne kadar sürede tamamlanması gerekiyor?
+3.	Projeyi tamamlamak için hangi kaynaklara ihtiyacınız var? (Örneğin, geliştiriciler, tasarımcılar, proje yöneticileri vb.)
+4.	Projeyi tamamlamak için hangi üçüncü taraf uygulamalarının veya hizmetlerin entegrasyonu gerekiyor?
+5.	Müşterilerinizin hangi özelliklere ihtiyacı var? (Örneğin, özel bir kullanıcı arayüzü, ödeme işlemleri entegrasyonu, yüksek kaliteli görüntüleri veya videoları barındırma vb.)
+6.	Projeyi tamamlamak için hangi platformlar için yazılım geliştirme hizmeti almak istiyorsunuz? (Örneğin, iOS, Android, web, masaüstü vb.)
+7.	Projeyi tamamlamak için hangi programlama dilleri ve teknolojileri kullanmak istiyorlar?
+8.	Projeyi tamamlamak için hangi tür veri tabanı gereksinimleri var?
+9.	projenin tasarımın kısmını kendiniz mi yapacaksınız, yoksa tasarımı biz mi yapacağız?
+10.	Hangi tür testler yapmayı planlıyorsunuz? (Örneğin, işlevsel testler, performans testleri, kullanıcı testleri vb.)
+11.	Projeyi tamamlamak için hangi aşamaları takip etmemiz gerekiyor? (Örneğin, geliştirme, test, canlıya alma vb.)
+12.	projenin son teslim tarihi ne zaman?
+-Proje için aklınızda belirli bir bütçe var mı?
+
+
+
+Cevabını bulamadığınız sorularımız varsa boş bırakabilirsiniz.
+En geç iki iş günü içerisinde proje fizibilitesi yapılıp size geri dönüş sağlanacaktır.
+Çalışma şeklimiz %35 ön ödemelidir bilgilerinize sunarız.
+Sorularımızı yanıtladığınızda, projenizi daha iyi anlayabilecek ve size uygun bir fiyatlandırma yapabileceğiz. Lütfen bu soruları mümkün olan en kısa sürede yanıtlarsanız seviniriz.
+Teşekkürler!
+">
+                <StartButton />
+            </MailTo>
 
         </header>
     )
