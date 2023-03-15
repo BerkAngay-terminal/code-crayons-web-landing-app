@@ -121,30 +121,7 @@ function Header() {
             </div> */}
 
 
-            <MailTo email="hello@codecrayons.dev" subject="Projenizin Adı" body="Merhaba,
-Bizimle çalışmak istediğiniz için teşekkür ederiz. Yazılım destek ajansı olarak, projenizi daha iyi anlamak ve size doğru bir fiyatlandırma yapabilmek için bazı sorularımız var.
-1.	Projenizin amacı nedir? (Örneğin, yeni bir web sitesi kurulumu, mevcut bir web sitesi yenileme, mobil uygulama geliştirme vb.)
-2.	Projenin ne kadar sürede tamamlanması gerekiyor?
-3.	Projeyi tamamlamak için hangi kaynaklara ihtiyacınız var? (Örneğin, geliştiriciler, tasarımcılar, proje yöneticileri vb.)
-4.	Projeyi tamamlamak için hangi üçüncü taraf uygulamalarının veya hizmetlerin entegrasyonu gerekiyor?
-5.	Müşterilerinizin hangi özelliklere ihtiyacı var? (Örneğin, özel bir kullanıcı arayüzü, ödeme işlemleri entegrasyonu, yüksek kaliteli görüntüleri veya videoları barındırma vb.)
-6.	Projeyi tamamlamak için hangi platformlar için yazılım geliştirme hizmeti almak istiyorsunuz? (Örneğin, iOS, Android, web, masaüstü vb.)
-7.	Projeyi tamamlamak için hangi programlama dilleri ve teknolojileri kullanmak istiyorlar?
-8.	Projeyi tamamlamak için hangi tür veri tabanı gereksinimleri var?
-9.	projenin tasarımın kısmını kendiniz mi yapacaksınız, yoksa tasarımı biz mi yapacağız?
-10.	Hangi tür testler yapmayı planlıyorsunuz? (Örneğin, işlevsel testler, performans testleri, kullanıcı testleri vb.)
-11.	Projeyi tamamlamak için hangi aşamaları takip etmemiz gerekiyor? (Örneğin, geliştirme, test, canlıya alma vb.)
-12.	projenin son teslim tarihi ne zaman?
--Proje için aklınızda belirli bir bütçe var mı?
-
-
-
-Cevabını bulamadığınız sorularımız varsa boş bırakabilirsiniz.
-En geç iki iş günü içerisinde proje fizibilitesi yapılıp size geri dönüş sağlanacaktır.
-Çalışma şeklimiz %35 ön ödemelidir bilgilerinize sunarız.
-Sorularımızı yanıtladığınızda, projenizi daha iyi anlayabilecek ve size uygun bir fiyatlandırma yapabileceğiz. Lütfen bu soruları mümkün olan en kısa sürede yanıtlarsanız seviniriz.
-Teşekkürler!
-">
+            <MailTo email="hello@codecrayons.dev" subject="Projenizin Adı" body="`${Projenizin Adı} ${Projenizin Amacı} ${Hangi Platformlarda Çalışacağı (Mobil, Web, Desktop))} ${İletişim Bilgileriniz}`">
                 <StartButton />
             </MailTo>
 
