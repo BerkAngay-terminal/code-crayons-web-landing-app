@@ -20,8 +20,8 @@ function index() {
 
           <Hero />
 
-          <div className='mt-48 bg-white/30 backdrop-blur-sm rounded-md p-4'>
-            <p className='text-white w-96 text-lg text-center'>We&apos;re always hungry for great ideas and
+          <div className='mt-80 sm:mt-48  bg-white/30 backdrop-blur-sm rounded-md p-4'>
+            <p className='text-white w-96 text-sm sm:text-lg text-center'>We&apos;re always hungry for great ideas and
               like-minded people. So, if you have a vision, and are looking for the right partners, we&apos;re here.</p>
           </div>
 
